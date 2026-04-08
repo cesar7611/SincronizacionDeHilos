@@ -18,7 +18,7 @@ public class ClasePrincipal {
         try {
             hilo1.sleep(10);
         } catch (InterruptedException e) {
-            System.out.print("Error en el hilo1 " + e);
+            System.out.print("Errorrrrrrrrrrrrrr" + e);
         }
         
         //Hilo2

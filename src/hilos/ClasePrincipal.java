@@ -16,7 +16,7 @@ public class ClasePrincipal {
         //Hilo1
         hilo1.start();
         try {
-            hilo1.sleep(10);
+            hilo1.join();
         } catch (InterruptedException e) {
             System.out.print("Errorrrrrrrrrrrrrr" + e);
         }
